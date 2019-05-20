@@ -1,0 +1,6 @@
+<h1>Games#score</h1>
+<p>Your word is: <%= @input.upcase %></p>
+<p><%= @result[:message] %></p>
+<p>You took <%= @result[:time] %> seconds</p>
+<p>Your score is <%= @result[:score] %></p>
+<%= link_to "Let's play again!", new_path %>
